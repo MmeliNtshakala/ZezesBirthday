@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zeze</title>
+    <link rel="stylesheet" href="countdown.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Also ufunani la come back tomorrow Noon❤️</h1>
+        <p class="subtext">Ithumeleke nge Mistake sorry🙄</p>
+        <div id="countdown">
+            <span id="days">0</span> days
+            <span id="hours">0</span> hours
+            <span id="minutes">0</span> minutes
+            <span id="seconds">0</span> seconds
+        </div>
+    </div>
+
+    <script>
+        const targetDate = new Date("2025-07-13T00:00:00");
+
+        const countdownInterval = setInterval(() => {
+            const now = new Date();
+            const diff = targetDate - now;
+
+            if (diff <= 0) {
+                clearInterval(countdownInterval);
+                window.location.href = "birthday.html";
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+            const minutes = Math.floor((diff / (1000 * 60)) % 60);
+            const seconds = Math.floor((diff / 1000) % 60);
+
+            document.getElementById("days").textContent = days;
+            document.getElementById("hours").textContent = hours;
+            document.getElementById("minutes").textContent = minutes;
+            document.getElementById("seconds").textContent = seconds;
+        }, 1000);
+    </script>
+</body>
+</html>
