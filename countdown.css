@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #ffe0ec, #ffdee9);
+    background: linear-gradient(135deg, #1c1b1f, #2c2b30);
     font-family: 'Quicksand', sans-serif;
     display: flex;
     justify-content: center;
@@ -25,10 +25,13 @@ h1 {
 
 .subtext {
     margin-top: 10px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #333;
+    font-weight: 500; 
+    line-height: 1.4;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.5px;
 }
-
 #countdown {
     margin-top: 20px;
     font-size: 1.5em;
