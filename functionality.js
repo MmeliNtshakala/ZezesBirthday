@@ -21,7 +21,7 @@ document.getElementById('revealBtn').addEventListener('click', function () {
         "First school day 🎒", "You look so cute here why? ❤️", "Skinny Zeze",
         "No ways you were done with school here", "Teenage glow-up thinking you cool✨",
         "Andifuni ukuthetha bruh 😂", "Uhleka nje uyaphi👀", "Ngangithukile ke la 😂",
-        "Isosha lami liyempini🤭 ", "Madam Liason Urgg 🥹", "Dudlu girl emagceken aseBHUBESINI💌",
+        "Isosha lami liyempini🤭", "Madam Liason Urgg 🥹", "Dudlu girl emagceken aseBHUBESINI💌",
         "My one and only Crush ❤️", "Angahambi la uthi angikuthandi📸", "Have a great one mini me 👍"
     ];
 
